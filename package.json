@@ -1,0 +1,31 @@
+{
+  "name": "learning-git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm-run-all test:*",
+    "test:html": "globstar nu-html-checker *.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kacper77/learning-git.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kacper77/learning-git/issues"
+  },
+  "homepage": "https://github.com/Kacper77/learning-git#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.5",
+    "globstar": "^1.0.0",
+    "onchange": "^3.3.0"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "node-sass": "^4.7.2",
+    "save-dev": "^2.0.0"
+  }
+}
