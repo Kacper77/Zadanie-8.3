@@ -6,7 +6,9 @@
   "scripts": {
     "test": "npm-run-all test:*",
     "test:html": "globstar nu-html-checker *.html",
-    "test:js": "globstar jshint js/*.js"
+    "test:js": "globstar jshint js/*.js",
+    "init-project": "npm-run-all init:*",
+    "build": "npm-run-all build:* test"
   },
   "repository": {
     "type": "git",
